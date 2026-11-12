@@ -1,77 +1,76 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ar" dir="rtl">
-<head><style>
-@font-face {
-  font-family: "Optimistic";
-  font-style: normal;
-  font-weight: 400 600;
-  font-display: swap;
-  src: url("/fonts/OptimisticAI_VF_Optimized.woff2") format("woff2");
-}
-@font-face {
-  font-family: "Optimistic Mono";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("/fonts/OptimisticMono_W_TextRegular.woff2") format("woff2");
-}
-:where(html) {
-  font-family: "Optimistic", system-ui, sans-serif;
-}
-:where(code, pre, kbd, samp) {
-  font-family: "Optimistic Mono", ui-monospace, monospace;
-}
-</style>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sonaa - صُنّاع - تحميل مجاني</title>
-<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;800&display=swap" rel="stylesheet">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#171A22">
+<meta name="description" content="حمّل تطبيق حمزاوي سات لخدمات الدش والكاميرات والشاشات والريسيفرات.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="ar_EG">
+<meta property="og:site_name" content="حمزاوي سات">
+<meta property="og:title" content="تحميل تطبيق حمزاوي سات">
+<meta property="og:description" content="كل خدمات الدش والكاميرات والشاشات في مكان واحد.">
+<title>تحميل تطبيق حمزاوي سات</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <style>
-body{font-family:'Tajawal',sans-serif;background:#f8f9fa;margin:0;padding:20px;color:#222}
-.card{max-width:480px;margin:0 auto;background:white;border-radius:20px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.08)}
-.logo{width:90px;height:90px;border-radius:50%;display:block;margin:0 auto 16px;border:4px solid #00BFA5;background:white;object-fit:cover}
-h1{text-align:center;margin:0;font-size:26px;font-weight:800}h1 span{color:#00BFA5}
-.desc{text-align:center;font-size:17px;font-weight:700;color:#222;margin:12px 0 20px;line-height:1.6}
-.info{display:flex;justify-content:space-around;background:#f1f8f7;border-radius:12px;padding:12px;margin:16px 0;font-size:14px;font-weight:600}
-.download{display:block;background:#00BFA5;color:white;text-align:center;padding:16px;border-radius:14px;text-decoration:none;font-size:19px;font-weight:800;margin:20px 0}
-.hash{background:#f5f5f5;border-radius:10px;padding:12px;font-family:monospace;font-size:11px;word-break:break-all;margin:12px 0}
-.trust{background:#FAFAFA;border-radius:14px;padding:18px;margin:20px 0;border:1px solid #EEEEEE}
-.trust h3{margin:0 0 14px;color:#1a1a1a;font-size:17px;font-weight:800;text-align:center}
-.trust ul{list-style:none;padding:0;margin:0}
-.trust li{padding:10px 0;font-size:14.5px;font-weight:600;color:#333;border-bottom:1px solid #f0f0f0;display:flex;line-height:1.6}
-.trust li:last-child{border-bottom:none}
-.trust li b{color:#004D40;margin-left:6px;min-width:90px}
-.quote{text-align:center;background:#f1f8f7;border-radius:10px;padding:14px;margin:16px 0;font-size:14px;font-weight:600;color:#004D40;line-height:1.8}
-.reassure{text-align:right;font-size:13.5px;color:#333;background:#f0fdf9;border:1px solid #b2dfdb;border-radius:10px;padding:14px;margin:-10px 0 20px;line-height:1.8}
-.reassure b{color:#004D40}
+:root{color-scheme:light;--ink:#171A22;--ink2:#242832;--gold:#C9A34F;--gold2:#A9822E;--cream:#F8F6F0;--line:#E8E0CF;--muted:#77736A;--white:#fff}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;padding:24px 16px;display:grid;place-items:center;background:radial-gradient(circle at 12% 8%,#eadfca 0,transparent 34%),linear-gradient(145deg,#fbfaf6,#f1ede3);font-family:Cairo,system-ui,sans-serif;color:var(--ink)}
+.card{width:min(100%,520px);overflow:hidden;background:var(--white);border:1px solid var(--line);border-radius:28px;box-shadow:0 22px 60px #171a2218,0 5px 0 #d9cba9}
+.hero{position:relative;text-align:center;padding:32px 24px 26px;background:linear-gradient(135deg,#171A22 0%,#242832 72%,#554323 100%);color:#fff}
+.hero:before,.hero:after{content:"";position:absolute;border:1px solid #ffffff18;border-radius:50%;pointer-events:none}
+.hero:before{width:250px;height:250px;top:-165px;left:-80px}
+.hero:after{width:180px;height:180px;bottom:-135px;right:-55px}
+.logo{position:relative;width:104px;height:104px;object-fit:contain;padding:8px;background:#fff;border:3px solid var(--gold);border-radius:26px;box-shadow:0 8px 0 #8d6c25,0 14px 24px #0005}
+h1{position:relative;margin:18px 0 5px;font-size:30px;font-weight:900;line-height:1.4}
+h1 span{color:#f1d18c}
+.tagline{position:relative;margin:0;color:#eee6d5;font-size:14px;font-weight:700}
+.body{padding:25px 25px 22px}
+.intro{text-align:center;margin:0 auto 18px;max-width:410px;font-size:15px;line-height:1.9;color:#4c4a43;font-weight:700}
+.status{display:flex;align-items:center;justify-content:center;gap:8px;margin:0 auto 18px;padding:10px 14px;border:1px solid #e8cf91;border-radius:12px;background:#fff9e9;color:#76561d;font-size:12px;font-weight:800}
+.dot{width:8px;height:8px;border-radius:50%;background:#c99b39;box-shadow:0 0 0 4px #c99b3920}
+.download{display:flex;align-items:center;justify-content:center;gap:10px;width:100%;min-height:58px;padding:14px 18px;border:1px solid #8d6c25;border-radius:15px;background:linear-gradient(145deg,#f9e2a5,#e7b95e);box-shadow:0 5px 0 #a9822e,0 9px 18px #a9822e30;color:#171a22;text-decoration:none;font-size:17px;font-weight:900;transition:transform .15s,box-shadow .15s}
+.download:hover{filter:brightness(1.04);transform:translateY(-1px)}
+.download:active{transform:translateY(3px);box-shadow:0 2px 0 #a9822e}
+.download svg{width:23px;height:23px;flex:none}
+.release-link{display:block;text-align:center;margin:17px 0 0;color:#8b6829;font-size:12px;font-weight:800;text-decoration:none}
+.release-link:hover{text-decoration:underline}
+.features{display:grid;grid-template-columns:repeat(3,1fr);gap:9px;margin:23px 0 18px}
+.feature{padding:13px 8px;text-align:center;border:1px solid var(--line);border-radius:13px;background:var(--cream);font-size:11px;font-weight:800;color:#514a3b;line-height:1.6}
+.feature b{display:block;font-size:23px;margin-bottom:3px}
+.note{padding:14px 15px;border:1px solid #e7e0d2;border-radius:13px;background:#faf9f5;color:#5d594f;font-size:12px;line-height:1.9}
+.note strong{color:#292820}
+.install{margin:15px 0 0;text-align:center;color:var(--muted);font-size:11px;line-height:1.8}
+.footer{padding:14px 20px;text-align:center;border-top:1px solid var(--line);background:#fbfaf7;color:#898273;font-size:11px;font-weight:700}
+@media(max-width:380px){body{padding:12px}.hero{padding:26px 18px 22px}.body{padding:20px 16px}h1{font-size:26px}.features{gap:6px}.feature{font-size:10px}}
 </style>
 </head>
 <body>
-<div class="card">
-<img class="logo" src="sonaa_step1_logo.png" alt="Sonaa - صُنّاع S">
-<h1>Sonaa - <span>صُنّاع</span></h1>
-<p class="desc">صُنَّاع، كُلُّ خِدْمَةٍ تَبْدَأُ بِخُطْوَةٍ</p>
-<div class="info"><div>📦 20 MB</div><div>⭐ 1.0.4</div><div>🔒 آمن</div></div>
-<a class="download" href="https://github.com/aasdstarr77/sonaa-app/releases/download/1.0.4/sonaa.apk">⬇ تحميل التطبيق مجاناً</a>
-<div class="reassure">
-<b>ℹ️ تنبيه مهم:</b><br>
-لو ظهرت لك رسالة من جوجل بعد التحميل مكتوب فيها<br>
-<b>"قد يكون هذا الملف ضاراً"</b> أو <b>"This file may be harmful"</b><br><br>
-<b>لا تقلق، هذا طبيعي 100%</b> - جوجل يظهر هذه الرسالة لأي تطبيق يتم تثبيته من خارج متجر Google Play، حتى لو كان آمن تماماً.<br><br>
-✅ الملف آمن ومحمي - مرفوع على GitHub الرسمي لصُنّاع ومتحقق منه برقم <b>SHA256</b> أسفل الصفحة.
+<main class="card">
+<header class="hero">
+<img class="logo" src="https://raw.githubusercontent.com/hamzawysat/sonaa-app/hamzawy-sat-brand-conversion/assets/LOGO_UPLOAD_HERE/logo.png" alt="شعار حمزاوي سات">
+<h1>حمزاوي <span>سات</span></h1>
+<p class="tagline">كل خدمة تبدأ بخطوة</p>
+</header>
+<section class="body">
+<p class="intro">تطبيق حمزاوي سات لخدمات تركيب وصيانة الدش وكاميرات المراقبة والشاشات والريسيفرات، ومتابعة طلباتك بسهولة.</p>
+<div class="status"><i class="dot"></i> صفحة التحميل الجديدة — بانتظار رفع إصدار التطبيق</div>
+<a class="download" href="https://github.com/hamzawysat/sonaa-app/releases/latest/download/hamzawy-sat.apk" aria-label="تحميل أحدث إصدار من تطبيق حمزاوي سات">
+<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m0 0 5-5m-5 5-5-5"/><path d="M5 17v3h14v-3"/></svg>
+تحميل تطبيق حمزاوي سات
+</a>
+<a class="release-link" href="https://github.com/hamzawysat/sonaa-app/releases/latest">عرض تفاصيل الإصدار</a>
+<div class="features">
+<div class="feature"><b>📡</b>الدش والريسيفرات</div>
+<div class="feature"><b>📷</b>كاميرات المراقبة</div>
+<div class="feature"><b>📺</b>الشاشات</div>
 </div>
-<div class="quote">منصة مصرية تجمع الفنيين المحترفين في مكان واحد، بمعايير جودة ومتابعة حقيقية لكل طلب.</div>
-<div class="trust"><h3>لماذا صُنّاع؟</h3><ul>
-<li><b>نظام تتبع:</b> كل طلب له كود SN لمتابعة حالته خطوة بخطوة</li>
-<li><b>شفافية كاملة:</b> استقبل عروض أسعار متعددة وقارن قبل الاختيار</li>
-<li><b>فنيون موثوقون:</b> تقييمات ومراجعات حقيقية من عملاء سابقين</li>
-<li><b>تغطية شاملة:</b> أكثر من 25 تخصص فني - دش، كاميرات، تكييف، كهرباء، سباكة وغيرها</li>
-<li><b>تواصل آمن:</b> محادثة مباشرة داخل التطبيق تحفظ حق الطرفين</li>
-<li><b>دعم فني:</b> متابعة مستمرة لضمان إتمام الخدمة بالجودة المطلوبة</li>
-</ul></div>
-<div class="hash"><b>SHA256:</b><br>526128f4f238624fa9a3123842d4c33ad81f3de701550c0d1b0393846a1f9d85</div>
-<p style="font-size:13px;color:#666;text-align:center;margin-top:18px">طريقة التثبيت: بعد التحميل افتح الملف > السماح بالتثبيت من مصادر غير معروفة > تثبيت</p>
-<p style="text-align:center;margin-top:20px"><a href="https://github.com/aasdstarr77/sonaa-app/releases/tag/1.0.4" style="color:#00BFA5;font-weight:700">عرض تفاصيل الإصدار</a></p>
-</div>
-<script>(function(){var loc=location.href.replace(/#.*$/,"");var ATTR_NAMES=["data-product-id","data-productid","data-product_id","product-id","productid","product_id","data-source-entity-id","source-entity-id","source_entity_id","data-product","data-metadata","data-meta"];var DATASET_KEYS=["productId","productid","product_id","sourceEntityId","sourceentityid","source_entity_id","product","metadata","meta"];function readProductId(value){if(typeof value!=="string"||value.length===0)return null;if(/^[0-9]{6,}$/.test(value))return value;var match=value.match(/(?:product(?:_|-)?id|source(?:_|-)?entity(?:_|-)?id)["'=:\s]+([0-9]{6,})/i);return match?match[1]:null}function extractProductId(start){for(var node=start;node&&node!==document.body;node=node.parentElement){for(var i=0;i<ATTR_NAMES.length;i++){var attrValue=node.getAttribute&&node.getAttribute(ATTR_NAMES[i]);var attrProductId=readProductId(attrValue);if(attrProductId)return attrProductId}var dataset=node.dataset||null;if(dataset){for(var j=0;j<DATASET_KEYS.length;j++){var dataValue=dataset[DATASET_KEYS[j]];var dataProductId=readProductId(dataValue);if(dataProductId)return dataProductId}}}return null}function isInlineMediaSlotElement(node){return !!(node&&node.getAttribute&&node.getAttribute("data-clippy-inline-media-slot")!==null)}function findInlineMediaSlot(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(isInlineMediaSlotElement(node))return node}return null}function readInlineMediaUrl(node){if(!node)return null;return node.getAttribute&&((node.getAttribute("data-clippy-inline-media-url")||node.getAttribute("data-url")||node.getAttribute("data_url")))||node.href||null}function stripHash(url){return String(url).replace(/#.*$/,"")}function urlsMatch(a,b){if(!a||!b)return false;try{return stripHash(new URL(a,loc).href)===stripHash(new URL(b,loc).href)}catch(_){return stripHash(a)===stripHash(b)}}function isFirstPartyReelUrl(value){try{var url=new URL(value,loc);if(url.protocol!=="https:")return false;var host=url.hostname.toLowerCase();var supported=host==="instagram.com"||host.endsWith(".instagram.com")||host==="facebook.com"||host.endsWith(".facebook.com");return supported&&/\/reels?\//i.test(url.pathname)}catch(_){return false}}function isInlineMediaUrlClick(node,href){var slot=findInlineMediaSlot(node);if(!slot)return false;var slotUrl=readInlineMediaUrl(slot);if(slotUrl)return urlsMatch(href,slotUrl);return isFirstPartyReelUrl(href)}function findDataHref(start){for(var node=start;node&&node!==document.body;node=node.parentElement){if(node.getAttribute){var href=node.getAttribute("data-href")||node.getAttribute("data-url");if(href)return{href:href,node:node}}}return null}var nativeOpen=window.open;window.open=function(url){if(parent!==window&&typeof url==="string"&&/^https?:\/\//.test(url)){parent.postMessage({type:"ecto:usercontent-link-click",href:url},"*");return null}return nativeOpen?nativeOpen.apply(window,arguments):null};document.addEventListener("click",function(e){var target=e.target instanceof Element?e.target:null;if(!target)return;if(parent===window)return;var a=target.closest?target.closest("a[href]"):null;if(a&&a.href&&/^https?:\/\//.test(a.href)&&a.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(a,a.href))return;var productId=extractProductId(target)||extractProductId(a);if(productId){e.preventDefault();parent.postMessage({type:"ecto-artifact-link-click",productId:productId},"*");return}e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:a.href},"*");return}var dataHref=findDataHref(target);if(dataHref&&/^https?:\/\//.test(dataHref.href)&&dataHref.href.replace(/#.*$/,"")!==loc){if(isInlineMediaUrlClick(dataHref.node,dataHref.href))return;e.preventDefault();parent.postMessage({type:"ecto:usercontent-link-click",href:dataHref.href},"*")}},true)})();</script><script>(function(){var FOCUS_TYPE="ecto:artifact-focus-request";var CLOSE_TYPE="ecto:artifact-close-request";function focusArtifactDocument(){var body=document.body;if(!body)return;try{window.focus();}catch(e){}if(!body.hasAttribute("tabindex"))body.setAttribute("tabindex","-1");try{body.focus({preventScroll:true});}catch(e){try{body.focus();}catch(e2){}}}window.addEventListener("message",function(event){if(event.source!==window.parent)return;var data=event.data;if(!data||typeof data!=="object"||data.type!==FOCUS_TYPE)return;if(document.readyState==="loading"){document.addEventListener("DOMContentLoaded",focusArtifactDocument,{once:true});return;}focusArtifactDocument();});window.addEventListener("keydown",function(event){if(event.key!=="Escape")return;window.setTimeout(function(){if(event.defaultPrevented)return;window.parent.postMessage({type:CLOSE_TYPE},"*");},0);});})();</script></body>
+<div class="note"><strong>ملاحظة:</strong> قد يعرض أندرويد تنبيهًا عند تثبيت تطبيق تم تنزيله من خارج متجر Google Play. نزّل التطبيق من رابط الإصدار الرسمي أعلاه، ولا تثبّت ملفات من مصادر غير موثوقة.</div>
+<p class="install">بعد اكتمال التنزيل، افتح ملف APK واتبع تعليمات التثبيت على هاتفك.</p>
+</section>
+<footer class="footer">حمزاوي سات · خدمات وتركيبات وصيانة</footer>
+</main>
+</body>
 </html>
